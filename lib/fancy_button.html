@@ -17,22 +17,8 @@
         cursor: pointer;
       }
       
-      @keyframes spin {
-          from {
-              transform:rotate(0deg);
-          }
-          to {
-              transform:rotate(360deg);
-          }
-        }
-      
-      :host.animate {
-        animation-name: spin;
-        animation-duration: 500ms;
-        animation-iteration-count: 1;
-        animation-timing-function: linear;
-        
-        
+      :host:active {
+        font-size: 3em;
       }
     </style>
     <content></content>
