@@ -1,0 +1,7 @@
+name: fancy_button
+description: A useless fancy button.
+version: 0.0.1
+author: Seth Ladd <sethladd@gmail.com>
+homepage: http://later
+dependencies:
+    polymer: ">=0.9.0+1 <0.9.1"
