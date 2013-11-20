@@ -1,6 +1,6 @@
 name: fancy_button
 description: A useless fancy button.
-version: 0.0.2
+version: 0.0.3
 author: Seth Ladd <sethladd@gmail.com>
 homepage: http://later
 dependencies:
