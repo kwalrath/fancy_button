@@ -6,10 +6,6 @@ class FancyButton extends ButtonElement with Polymer, Observable {
 
   FancyButton.created() : super.created() {
     polymerCreated();
-
-    onClick.listen((e) {
-      this.classes.add('animate');
-    });
   }
 
 }
