@@ -6,15 +6,14 @@
     <title>Sample app</title>
     <link rel="stylesheet" href="styles.css">
     
-    <!-- import the click-counter -->
+    <link rel="import" href="packages/polymer/polymer.html">
     <link rel="import" href="packages/fancy_button/fancy_button.html">
-    <script type="application/dart">export 'package:polymer/init.dart';</script>
-    <script src="packages/browser/dart.js"></script>
   </head>
   <body>
     <h1>Fancy button</h1>
     
     <button is="fancy-button">Click me</button>
 
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
   </body>
 </html>
